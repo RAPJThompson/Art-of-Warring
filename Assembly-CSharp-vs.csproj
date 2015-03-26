@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{969EA106-D61F-0E68-23B1-CAC039CA56B6}</ProjectGuid>
+	<ProjectGuid>{AD6E20AE-6E86-67B5-20D4-9837F9183700}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,19 +46,71 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Common\ruler.cs" />
-     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
-     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
-     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
-     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\AIManager.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\AStar.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\AbilityManagerTB.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\AudioManager.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\CameraControl.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\CollectibleTB.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\DamageTable.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\DebugDraw.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\GameControlTB.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\GlobalStatsTB.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\GridManager.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\GridPainter.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\HPAttribute.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\Hover.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\LayerManager.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\Obstacle.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PerkManagerTB.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\CollectibleListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\DamageArmorListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\FactionListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\LayerListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\ObstacleListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\PerkTBListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\UnitAbilityListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\PrefabList\UnitListPrefab.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\RandomRotate.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\Rotate.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\SelfDestruct.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\ShootObjectTB.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\Tile.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\PreBattleSetup\UISetup.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\PreBattleSetup\UISetupUnit.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UI.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIAbilityButtons.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIGameOver.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIHUD.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIOverlay.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIPerkMenu.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UI\UIUnitPlacement.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UnitControl.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UnitTB.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UnitTBAnimation.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\UnitTBAudio.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\C#\Utility.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\Misc\DemoMainMenu.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\Misc\Instruction.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\Misc\VersionLabel.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\TBTK\TBTK (Base)\Scripts\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\backend\Country.cs" />
+     <Compile Include="Assets\backend\Ruler.cs" />
+     <Compile Include="Assets\backend\Unit.cs" />
+     <None Include="Assets\Standard Assets\display\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\TBTK\TBTK (Base)\Prefabs\Explosion\Mat&amp;Tex&amp;Shader\Particle Add.shader" />
+     <None Include="Assets\Standard Assets\display\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\display\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\display\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Master and Commander/Documents/Art of Warring/Art-of-Warring/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{C2FE6A80-2653-8D09-8F9E-721461FDD4AF}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{2C4E3011-3960-3F2C-3A08-FC941DDC4961}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

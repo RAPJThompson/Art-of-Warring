@@ -1,0 +1,11 @@
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Master and Commander\Documents\Art of Warring\Art-of-Warring\obj\Debug\Assembly-CSharp-firstpass.pdb
